@@ -15,7 +15,7 @@ for(i = 0; i < matriz.length; i++){
     
     const tipo = (soma % 2 ===0)? "é par" : "é ímpar";
     const novalinha = [soma, tipo];
-    somalinhas.push(novalinha)
+    somalinhas.push(novalinha);
 }
 const somacolunas = [];
 const numcolunas = matriz[0].length;
